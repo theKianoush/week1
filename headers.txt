@@ -1,0 +1,21 @@
+Request Headers
+User-Agent: PostmanRuntime/7.29.0		// this is what describes the browser or tool that is making the column // in this case the user agent is postman, making the request to the API
+Accept: */*					// accept header is what we accept
+Postman-Token: 3c216573-b135-4e0b-8236-483224355f3d
+Host: www.googleapis.com			// a request type header, used to represent the domain name of the server 
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive				// general header that allows the client to specify options for a particular connection
+Response Headers
+Content-Type: application/json; charset=UTF-8
+Vary: Origin					// vary is response type header used by server to indicate which headers it used when selecting 
+Vary: X-Origin
+Vary: Referer
+Content-Encoding: gzip
+Date: Mon, 31 Jan 2022 12:53:49 GMT
+Server: ESF
+Cache-Control: private				//It is a general type header used to specify directives for caching mechanisms.
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"	// 	It is use to reach the website in a alternate way.
+Transfer-Encoding: chunked
